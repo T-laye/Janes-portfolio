@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import resume from "../../assets/JANE'S RESUME.pdf";
 import "./Header.css";
 import "../../Queries.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Header = (props) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const [open, setOpen] = useState(false);
 
   const onClickIcon = () => {
@@ -15,7 +20,7 @@ const Header = (props) => {
   };
   return (
     <React.Fragment>
-      <div className="header-container">
+      <div className="header-container" data-aos="flip-up">
         <div className="logo-container">
           <Link to="/">Jane Agadia</Link>
         </div>
