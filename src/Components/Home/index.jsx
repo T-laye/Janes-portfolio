@@ -1,17 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Button from "../Button";
 import { Link } from "react-router-dom";
 import "./home.css";
 import "../../Queries.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 function HomePage() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
-    <div className=" pages homepage" data-aos="fade-right">
+    <div className=" pages homepage">
       <div className="about">
         <h2> Hello! I'm Jane Agadia, </h2>
         <h1 className="role-text">A Front-end Developer.</h1>
