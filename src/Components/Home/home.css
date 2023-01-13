@@ -1,0 +1,50 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  /* max-height: 90vh; */
+  position: relative;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 4.8rem;
+}
+h2 {
+  font-size: 3.6rem;
+}
+.about {
+  margin-bottom: 2rem;
+}
+.homepage-text {
+  font-size: 1.6rem;
+}
+.tools-icons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+/* responsive */
+/* 1000px */
+@media screen and (max-width: 62rem) {
+  .homepage h1 {
+    font-size: 3.6rem;
+  }
+  .homepage h2 {
+    font-size: 2.4rem;
+  }
+  .homepage {
+    padding-top: 10%;
+  }
+}
+/* 670px */
+@media screen and (max-width: 42rem) {
+  .homepage {
+    padding-top: 20%;
+  }
+}
+/* 500px */
+@media screen and (max-width: 32rem) {
+  .homepage {
+    padding-top: 30%;
+  }
+}

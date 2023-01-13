@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+  /* min-height: 100vh; */
+}
+
+.App {
+  overflow-x: hidden;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+.pages {
+  margin-top: 10%;
+  /* background-color: aliceblue; */
+}
+
+.btn {
+  margin-top: 5rem;
+  display: inline-block;
+}
+.btn button {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 4rem;
+  position: relative;
+  border: 0.1px solid rgba(255, 255, 255, 0.466);
+  color: white;
+  background-color: black;
+  overflow: hidden;
+  z-index: 1;
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+.btn button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: -1;
+  transition: all ease 0.2s;
+}
+.btn button:hover {
+  color: black;
+}
+.btn button:hover::before {
+  left: 0;
+}

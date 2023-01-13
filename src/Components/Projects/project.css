@@ -1,0 +1,69 @@
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+  height: auto;
+  overflow-x: hidden;
+}
+.project-page {
+  overflow-x: hidden;
+  margin-top: 3%;
+  padding-bottom: 8rem;
+}
+.project-heading {
+  font-size: 2.4rem;
+}
+.project {
+  height: 25rem;
+  width: 50rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: black;
+}
+.project img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.project-description {
+  background-color: rgba(0, 0, 0, 0.699);
+  padding: 2rem;
+  height: 108%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+.project:hover .project-description {
+  transform: translateY(-100%);
+  transition: all ease-in-out 0.5s;
+  /* transition: all step-end 0.2s; */
+}
+.project-description-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.project-description-text {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+.project-description-tools {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: aqua; */
+  gap: 1rem;
+  color: black;
+}
+.tool-items {
+  background-color: #fff;
+  font-size: 1rem;
+  padding: 0.1rem 0.6rem;
+  border-radius: 1rem;
+}
