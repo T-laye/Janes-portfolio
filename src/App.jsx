@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./Components/Header/Header";
-import HomePage from "./Components/Home/Home";
+import Header from "./Components/Header";
+import HomePage from "./Components/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Contact from "./Components/Contacts/Contact";
-import Project from "./Components/Projects/Project";
+import Contact from "./Components/Contacts";
+import Project from "./Components/Projects";
 import "./App.css";
 import "./Queries.css";
 
