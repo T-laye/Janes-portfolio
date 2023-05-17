@@ -1,38 +1,60 @@
-import React from "react";
-import Button from "../Button";
-import { Link } from "react-router-dom";
-import "./home.css";
-import "../../Queries.css";
+import React from 'react';
+import Button from '../Button';
+import { FiFigma } from 'react-icons/fi';
+import { SiRedux, SiTailwindcss } from 'react-icons/si';
+import { TbBrandNextjs, TbBrandMongodb } from 'react-icons/tb';
+import { Link } from 'react-router-dom';
+import './home.css';
+import '../../Queries.css';
 
 function HomePage() {
   return (
     <div className=" pages homepage">
       <div className="about">
-        <h2> Hello! I'm Jane Agadia, </h2>
+        <h2> Hello! I'm Tubo Layefa, </h2>
         <h1 className="role-text">A Front-end Developer.</h1>
         <p className="homepage-text">
-          I enjoy creating interactive websites and applications.
-          <br /> I also enjoy teaching, smart conversations and connecting with
-          people.
+          I specialize in creating interactive websites and applications that
+          provide engaging user experiences. I have a passion for crafting
+          visually appealing and user-friendly interfaces.
         </p>
       </div>
       <div className="tools">
-        <p> Some of the technologies I've been working with are:</p>
+        <p>
+          {' '}
+          Throughout my career, I have gained expertise in various <br />{' '}
+          front-end technologies and frameworks, including:
+        </p>
         <ul className="tools-icons">
-          <li>
-            <i className=" large yellow js icon"></i>{" "}
+          <li title="JavaScript">
+            <i className=" large yellow js icon"></i>{' '}
           </li>
-          <li>
-            {" "}
-            <i className=" large green html5 icon"></i>{" "}
+          <li title="Html">
+            {' '}
+            <i className=" large green html5 icon"></i>{' '}
           </li>
-          <li>
+          <li title="CSS">
             <i className=" large blue css3 alternate icon"></i>
           </li>
-          <li>
+          <li title="React">
             <i className=" large blue react icon"></i>
           </li>
-          <li>
+          <li title="Figma">
+            <FiFigma size={20} />
+          </li>
+          <li title="Redux">
+            <SiRedux size={20} />
+          </li>
+          <li title="NextJS">
+            <TbBrandNextjs size={22} />
+          </li>
+          <li title="Tailwind">
+            <SiTailwindcss size={20} />
+          </li>
+          <li title="MongoDb">
+            <TbBrandMongodb size={20} />
+          </li>
+          <li title="Github">
             <i className=" large  github icon"></i>
           </li>
         </ul>

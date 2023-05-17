@@ -6,6 +6,7 @@
   padding: 0 4rem;
   margin-top: 10%;
   overflow-x: hidden;
+  min-height: 100vh;
 }
 .contact-details {
   display: flex;

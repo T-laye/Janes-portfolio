@@ -28,7 +28,7 @@ ul {
   list-style: none;
 }
 .pages {
-  margin-top: 10%;
+  /* margin-top: 10%; */
   /* background-color: aliceblue; */
 }
 
@@ -50,7 +50,7 @@ ul {
   cursor: pointer;
 }
 .btn button::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: -100%;

@@ -1,6 +1,6 @@
-import React from "react";
-import Button from "../Button";
-import "./contact.css";
+import React from 'react';
+import Button from '../Button';
+import './contact.css';
 
 const Contact = () => {
   return (
@@ -8,18 +8,18 @@ const Contact = () => {
       <h2>Reach Out!</h2>
       <p className="contact-text">
         I'm Open To freelance, internship and junior Developer Roles.
-        <br /> Got something that sounds exciting, or just want to say hello?{" "}
+        <br /> Got something that sounds exciting, or just want to say hello?{' '}
         Get In Touch With Me.
       </p>
       <div className="contact-details">
         <div className="contact-icons">
           <ul>
             <li>
-              {" "}
+              {' '}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/jane-agadia"
+                href="https://www.linkedin.com/in/tubo-layefa/"
                 alt="linkedin"
               >
                 <i className="linkedin icon big "></i>
@@ -29,7 +29,7 @@ const Contact = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://api.whatsapp.com/message/JVOKBIKMBAITH1?autoload=1&app_absent=0"
+                href="https://api.whatsapp.com/send?phone=+2347017189978"
                 alt="whatsapp"
               >
                 <i className="whatsapp icon big"></i>
@@ -39,8 +39,8 @@ const Contact = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://twitter.com/Agadiateejay?t=0qwgpiHLzrkPqLFzvFQAw&s=08"
-                alt="twiter"
+                href="https://twitter.com/Iam_layefa"
+                alt="twitter"
               >
                 <i className="twitter icon big"></i>
               </a>
@@ -50,7 +50,7 @@ const Contact = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/Janeagadia"
+                href="https://github.com/T-laye"
                 alt="github"
               >
                 <i className="github icon big"></i>
@@ -59,7 +59,7 @@ const Contact = () => {
           </ul>
         </div>
         <div className="link-div">
-          <a href="mailto:janeagadiabiz@gmail.com">
+          <a href="mailto:tlayefaah@gmail.com">
             <Button text="Contact me " />
           </a>
         </div>
